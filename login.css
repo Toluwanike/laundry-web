@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #0090F1;
+    --secondary-color: #001E33;
+    --link-color: #111827;
+    --text-color: #52646F;
+
+    --max-width: 1100px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    background-color: #fff;
+    color: var(--secondary-color);
+}
+
+
+.login{
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+
+}
+
+.login h1{
+    font-size: 36px;
+    margin-bottom: 25px;
+
+}
+
+.login form{
+    font-size: 20px;
+}
+
+.login form .form-group{
+    margin-bottom: 12px;
+
+}
+
+.login form .form-group[type="submit"]{
+    font-size: 20px;
+    margin-top: 15px;
+}
